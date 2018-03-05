@@ -12,7 +12,7 @@ Service implementing the Danas bakeri API.
 
 | path                 | description                                                          |
 | -------------------- | -----------------------------------------------------                |
-| app/DanasBakeri      | node express or python application implementing the [DanasBakeri-API |
+| app/DanasBakeri      | node express and python application implementing the [DanasBakeri-API |
 
 ## CI
 
