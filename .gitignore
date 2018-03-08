@@ -1,1 +1,4 @@
 .DS_Store
+.ropeproject/
+DanasBakeri-API-Python/venv/
+DanasBakeri-API-Node/node_modules/

@@ -4,11 +4,13 @@ Service implementing the Danas bakeri API.
 
 ## Project structure
 
+```
     .
     ├── Makefile
     ├── README.md
     ├── app
     │   └── DanasBakeri
+```
 
 | path                 | description                                                          |
 | -------------------- | -----------------------------------------------------                |
