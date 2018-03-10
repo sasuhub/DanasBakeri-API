@@ -2,7 +2,7 @@ module.exports = function(app) {
   var fs = require("fs");
 
   app.get("/products", (req, res) => {
-    fs.readFile("./app/src/routes/test.json", (err, data) => {
+    fs.readFile("./app/routes/test.json", (err, data) => {
       if (err) throw err;
       let products = JSON.parse(data);
       res.json(products);
@@ -10,7 +10,7 @@ module.exports = function(app) {
   });
 
   app.post("/products", (req, res) => {
-    fs.readFile("./app/src/routes/test.json", (err, data) => {
+    fs.readFile("./app/routes/test.json", (err, data) => {
       if (err) throw err;
       let productsData = JSON.parse(data);
       productsData.borek.push(req.body);
