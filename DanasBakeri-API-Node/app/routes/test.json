@@ -1,0 +1,7 @@
+{
+  "borek": [
+    { "navn": "potet borek", "pris": 25 },
+    { "navn": "spinat borek", "pris": 25 },
+    { "navn": "tunfisk børek", "pris": "25" }
+  ]
+}
